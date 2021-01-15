@@ -32,6 +32,7 @@ def on_move(x, y):
 
 def on_click(x, y, button, pressed):
     if pressed:
+	print('mause is clicked ')
         logging.info('Mouse clicked at ({0}, {1}) with {2}'.format(x, y, button))
 
 def on_scroll(x, y, dx, dy):
